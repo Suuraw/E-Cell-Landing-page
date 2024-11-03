@@ -14,7 +14,7 @@ const HeroSection = () => {
   };
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/hero-section')
+    axios.get('https://e-cell-landing-page.onrender.com/api/hero-section')
       .then(response => {
         setHeroData(response.data); 
       })
