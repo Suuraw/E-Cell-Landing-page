@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <img className="h-10 w-10 mr-2" src={logo} alt="logo" />
-            <span className="text-xl tracking-tight">E-Cell</span>
+            <span className="text-xl tracking-tight">KIIT <span className="bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text">E-Cell</span></span>
           </div>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             

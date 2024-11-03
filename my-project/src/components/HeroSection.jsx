@@ -12,9 +12,9 @@ const HeroSection = () => {
     hidden: { opacity: 0, x: -150 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
   };
-
+// local url - http://localhost:5000/api/hero-section
   useEffect(() => {
-    axios.get('https://e-cell-landing-page.onrender.com/api/hero-section')
+    axios.get('https://e-cell-landing-page.onrender.com/api/hero-section')  
       .then(response => {
         setHeroData(response.data); 
       })
