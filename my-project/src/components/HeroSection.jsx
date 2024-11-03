@@ -25,7 +25,7 @@ const HeroSection = () => {
   }, []);
 
   if (error) return <p className="text-red-500">{error}</p>; 
-  if (!heroData) return <p>Loading...</p>; 
+  if (!heroData) return; 
 
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
@@ -36,7 +36,7 @@ const HeroSection = () => {
         variants={slideInFromLeft}
       >
         {heroData.headline} 
-        <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+        <span class="bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text">
           {" "}
           {heroData.highlight} 
         </span>
@@ -51,7 +51,7 @@ const HeroSection = () => {
       >
         {heroData.description} 
         <br />
-        <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+        <span class="bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text">
           Let’s build the future together!
         </span>
       </motion.p>
@@ -65,7 +65,7 @@ const HeroSection = () => {
       >
         <Link
           to="/register" 
-          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+          className="bg-gradient-to-r from-blue-500 to-green-800 py-3 px-4 mx-3 rounded-md"
         >
           {heroData.ctaLabel}
         </Link>
@@ -76,7 +76,7 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
+          className="rounded-lg w-1/2 border border-blue-700 shadow-sm shadow-blue-400 mx-2 my-4"
           initial="hidden"
           animate="visible"
           variants={slideInFromLeft}
@@ -90,7 +90,7 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
+          className="rounded-lg w-1/2 border border-blue-700 shadow-sm shadow-blue-400 mx-2 my-4"
           initial="hidden"
           animate="visible"
           variants={slideInFromLeft}

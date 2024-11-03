@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/logo1.png";
 // import { navItems } from "../constants";
 import { Link } from 'react-router-dom'
 
@@ -18,7 +18,7 @@ const NavBar = () => {
             </Link>
             <Link
               to="/register"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              className="bg-gradient-to-r from-blue-500 to-green-800 py-2 px-3 rounded-md"
             >
               Join us
             </Link>

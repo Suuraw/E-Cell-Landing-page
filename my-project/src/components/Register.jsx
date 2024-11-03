@@ -80,7 +80,7 @@ const RegisterPage = () => {
 
         {errorMessage && <p className="text-red-500 text-sm mb-4">{errorMessage}</p>}
 
-        <button type='submit' className="bg-gradient-to-r from-orange-500 to-orange-800 text-white py-2 px-4 rounded-md w-full hover:bg-orange-600">
+        <button type='submit' className="bg-gradient-to-r from-blue-500 to-green-800 text-white py-2 px-4 rounded-md w-full hover:bg-orange-600">
           Register
         </button>
       </form>
