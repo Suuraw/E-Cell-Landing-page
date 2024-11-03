@@ -21,7 +21,7 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (>= 14.x)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 
-### Running the Frontend Locally which is fetching the data from backend API hosted on cloud ( Render )
+### Run the Frontend Locally,data is being fetched from backend API hosted on cloud provider( Render )
 
 1. **Navigate to the Frontend Directory**:
    ```bash
